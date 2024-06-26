@@ -1,4 +1,4 @@
-#Exemplo de média de uma coluna
+# Exemplo de média de uma coluna
 
 import numpy as np
 
