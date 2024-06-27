@@ -1,0 +1,15 @@
+1 - Identificar o Processo Rodando
+sudo ss -tulnp | grep :PORTA
+
+2 - Matar processo
+sudo kill -9 PID 
+
+3 - Exemplo
+
+3.1 Localizar o processo rodando na porta X
+sudo ss -tulnp | grep :80
+tcp   LISTEN 0      128          0.0.0.0:80         0.0.0.0:*    users:(("streamlit",pid=3072,fd=6))      
+tcp   LISTEN 0      128             [::]:80            [::]:*    users:(("streamlit",pid=3072,fd=7))
+
+3.2 Matar processo
+sudo kill -9 3072
