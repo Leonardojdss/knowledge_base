@@ -1,1 +1,1 @@
-Este repositorio tem como objetivo armazenar os exemplos das melhorae práticas para tratamento e manipulação de dados
+Este repositorio tem como objetivo armazenar os exemplos das melhores práticas para tratamento e manipulação de dados
