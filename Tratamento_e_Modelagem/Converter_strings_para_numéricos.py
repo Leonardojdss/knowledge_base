@@ -1,6 +1,6 @@
 #Converter campos strings para numéricos
 
-for label in ["Sex", "Housing", "Saving accounts", "Checking account","Purpose","Risk"]:
-    data_set_transformado[label] = LabelEncoder().fit_transform(data_set_transformado[label])
+for label in ["COLUNA1", "COLUNA2", "COLUNA3", "COLUNA4","COLUNA5","COLUNA6"]:
+    NOME_DO_DATA_SET[label] = LabelEncoder().fit_transform(NOME_DO_DATA_SET[label])
 #confirmar se realmente foi alterado
-data_set_transformado.info()
+NOME_DO_DATA_SET.info()
