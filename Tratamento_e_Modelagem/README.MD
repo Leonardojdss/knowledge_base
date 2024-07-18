@@ -1,1 +1,1 @@
-Comando para Pandas e Numpy
+Comandos para Pandas e Numpy
