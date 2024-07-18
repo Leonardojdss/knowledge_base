@@ -1,7 +1,7 @@
 # Em uma regressão linear é importante criarmos uma variavel chamada de X que contem o nome de todas colunas 
 # que são features, para extrair o nome das colunas pode ser usado o comando a seguir:
 
-DATA_FRAME.columns
+SEU_DATA_FRAME.columns
 
 # Retorno será uma lista, exemplo de um dataframe qualquer:
 
