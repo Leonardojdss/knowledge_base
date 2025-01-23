@@ -4,7 +4,7 @@ Procedimento para enviar uma imagem Docker para o Azure Container Registry (ACR)
 az login
 
 2. Faça login no ACR:
-az acr login --name <seu-registro>
+sudo az acr login --name <seu-registro>
 
 3. Marque a imagem local para o repositório do ACR:
 sudo docker tag <nome_imagem_docker_criada>:latest <seu-registro>.azurecr.io/<nome_imagem_docker_criada>:latest
