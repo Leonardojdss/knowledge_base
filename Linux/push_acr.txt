@@ -10,4 +10,4 @@ sudo az acr login --name <seu-registro>
 sudo docker tag <nome_imagem_docker_criada>:latest <seu-registro>.azurecr.io/<nome_imagem_docker_criada>:latest
 
 4. Envie a imagem:
-docker push <seu-registro>.azurecr.io/<nome_imagem_docker_criada>:latest
+sudo docker push <seu-registro>.azurecr.io/<nome_imagem_docker_criada>:latest
